@@ -44,76 +44,76 @@ namespace Blog.Data.Concrete.EntityFramework.Mappings
             builder.ToTable("Articles");
 
 
-            builder.HasData(
-                new Article
-                {
-                    Id = 1,
-                    CategoryId = 1,
-                    Title = "C# 10.0 ve .NET 6 Yenilikleri",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                    Thumbnail = "Default.jpg",
-                    SeoDescription = "C# 10.0 ve .NET 6 Yenilikleri",
-                    SeoTags = "C#, C# 10, .NET 6, .NET Framework, .NET Core",
-                    SeoAuthor = "Ali Kursad",
-                    Date = DateTime.Now,
-                    IsActive = true,
-                    IsDeleted = false,
-                    CreatedByName = "InitialCreate",
-                    ModifiedByName = "InitialCreate",
-                    CreatedDate = DateTime.Now,
-                    ModifiedDate = DateTime.Now,
-                    Note = "C# 10.0 ve .NET 6 Yenilikleri",
-                    UserId = 1,
-                    ViewsCount = 100,
-                    CommentCount = 1
-                },
+            //builder.HasData(
+            //    new Article
+            //    {
+            //        Id = 1,
+            //        CategoryId = 1,
+            //        Title = "C# 10.0 ve .NET 6 Yenilikleri",
+            //        Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            //        Thumbnail = "Default.jpg",
+            //        SeoDescription = "C# 10.0 ve .NET 6 Yenilikleri",
+            //        SeoTags = "C#, C# 10, .NET 6, .NET Framework, .NET Core",
+            //        SeoAuthor = "Ali Kursad",
+            //        Date = DateTime.Now,
+            //        IsActive = true,
+            //        IsDeleted = false,
+            //        CreatedByName = "InitialCreate",
+            //        ModifiedByName = "InitialCreate",
+            //        CreatedDate = DateTime.Now,
+            //        ModifiedDate = DateTime.Now,
+            //        Note = "C# 10.0 ve .NET 6 Yenilikleri",
+            //        UserId = 1,
+            //        ViewsCount = 100,
+            //        CommentCount = 1
+            //    },
 
-                new Article
-                {
-                    Id = 2,
-                    CategoryId = 2,
-                    Title = "C++ 11 ve 19 Yenilikleri",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                    Thumbnail = "Default.jpg",
-                    SeoDescription = "C++ 11 ve 19 Yenilikleri",
-                    SeoTags = "C++, C++ 11",
-                    SeoAuthor = "Ali Kursad",
-                    Date = DateTime.Now,
-                    IsActive = true,
-                    IsDeleted = false,
-                    CreatedByName = "InitialCreate",
-                    ModifiedByName = "InitialCreate",
-                    CreatedDate = DateTime.Now,
-                    ModifiedDate = DateTime.Now,
-                    Note = "C++ 11 ve 19 Yenilikleri",
-                    UserId = 1,
-                    ViewsCount = 175,
-                    CommentCount = 1
-                },
+            //    new Article
+            //    {
+            //        Id = 2,
+            //        CategoryId = 2,
+            //        Title = "C++ 11 ve 19 Yenilikleri",
+            //        Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            //        Thumbnail = "Default.jpg",
+            //        SeoDescription = "C++ 11 ve 19 Yenilikleri",
+            //        SeoTags = "C++, C++ 11",
+            //        SeoAuthor = "Ali Kursad",
+            //        Date = DateTime.Now,
+            //        IsActive = true,
+            //        IsDeleted = false,
+            //        CreatedByName = "InitialCreate",
+            //        ModifiedByName = "InitialCreate",
+            //        CreatedDate = DateTime.Now,
+            //        ModifiedDate = DateTime.Now,
+            //        Note = "C++ 11 ve 19 Yenilikleri",
+            //        UserId = 1,
+            //        ViewsCount = 175,
+            //        CommentCount = 1
+            //    },
 
-                new Article
-                {
-                    Id = 3,
-                    CategoryId = 3,
-                    Title = "JavaScript ES2019 ve ES2020 Yenilikleri",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                    Thumbnail = "Default.jpg",
-                    SeoDescription = "JavaScript ES2019 ve ES2020 Yenilikleri",
-                    SeoTags = "JavaScript, JavaScript ES2019, JavaScript ES2020",
-                    SeoAuthor = "Ali Kursad",
-                    Date = DateTime.Now,
-                    IsActive = true,
-                    IsDeleted = false,
-                    CreatedByName = "InitialCreate",
-                    ModifiedByName = "InitialCreate",
-                    CreatedDate = DateTime.Now,
-                    ModifiedDate = DateTime.Now,
-                    Note = "JavaScript ES2019 ve ES2020 Yenilikleri",
-                    UserId = 1,
-                    ViewsCount = 66,
-                    CommentCount = 1
-                }
-                );
+            //    new Article
+            //    {
+            //        Id = 3,
+            //        CategoryId = 3,
+            //        Title = "JavaScript ES2019 ve ES2020 Yenilikleri",
+            //        Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            //        Thumbnail = "Default.jpg",
+            //        SeoDescription = "JavaScript ES2019 ve ES2020 Yenilikleri",
+            //        SeoTags = "JavaScript, JavaScript ES2019, JavaScript ES2020",
+            //        SeoAuthor = "Ali Kursad",
+            //        Date = DateTime.Now,
+            //        IsActive = true,
+            //        IsDeleted = false,
+            //        CreatedByName = "InitialCreate",
+            //        ModifiedByName = "InitialCreate",
+            //        CreatedDate = DateTime.Now,
+            //        ModifiedDate = DateTime.Now,
+            //        Note = "JavaScript ES2019 ve ES2020 Yenilikleri",
+            //        UserId = 1,
+            //        ViewsCount = 66,
+            //        CommentCount = 1
+            //    }
+            //    );
         }
     }
 }
